@@ -23,6 +23,6 @@ def taxCalc(salary):
     return AfterTax
 
 
-Salary = int(input("Input Your Salary To The Nearest Pound: "))
+Salary = int(input("Input Your Salary To The Nearest Pound : "))
 persAllow(Salary)
 print(round(taxCalc(Salary), 2))
